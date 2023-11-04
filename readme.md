@@ -86,10 +86,7 @@ This project is licensed under the MIT License
 
 ---
 
-```bash
-  
+
 You can customize the content, add relevant images, and update the links according to your project's needs. This README provides an overview of the project, its features, how to install and use it, and how to contribute. 
 
 -by @Elazzouzi Hassan (Wizardy - 🧙‍♂️) 
-
-```
