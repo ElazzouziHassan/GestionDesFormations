@@ -79,3 +79,7 @@ Gestion de Formations is a web application developed with Laravel for managing c
 ## Contributing
 
 Contributions are welcome.
+
+## License
+
+This project is licensed under the MIT License
