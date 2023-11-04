@@ -31,3 +31,11 @@ Gestion de Formations is a web application developed with Laravel for managing c
 
 - Responsive UI Design with Bootstrap/MDBootstrap/Tailwind CSS.
 - Consistent and professional page design.
+
+## Prerequisites
+
+- [Laravel](https://laravel.com/docs) - Version ^10.10
+- [PHP](https://www.php.net/) - Version ^8.1
+- [Composer](https://getcomposer.org/)
+- [Node.js](https://nodejs.org/)
+- [MySQL](https://www.mysql.com/)
