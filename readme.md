@@ -75,3 +75,7 @@ Gestion de Formations is a web application developed with Laravel for managing c
 4. Manage courses and users from the admin dashboard.*
 
 ## Screenshots
+
+## Contributing
+
+Contributions are welcome.
