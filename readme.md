@@ -66,3 +66,10 @@ Gestion de Formations is a web application developed with Laravel for managing c
       php artisan serve
 
 7. Visit http://localhost:8000 in your web browser.
+
+## Usage
+
+1. Register as an administrator, student, or instructor.
+2. Log in with your role-specific credentials.
+3. Explore the features of the application.
+4. Manage courses and users from the admin dashboard.
