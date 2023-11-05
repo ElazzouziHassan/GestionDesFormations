@@ -35,3 +35,14 @@ CREATE TABLE Etudiant (
     AdresseEmail VARCHAR(100),
     Adresse VARCHAR(255)
 );
+
+-- Création de la table "Formateur"
+CREATE TABLE Formateur (
+    Identifiant INT AUTO_INCREMENT PRIMARY KEY,
+    NumeroCarteIdentite VARCHAR(20),
+    Nom VARCHAR(50),
+    DateNaissance DATE,
+    NumeroTelephone VARCHAR(20),
+    AdresseEmail VARCHAR(100),
+    Adresse VARCHAR(255)
+);
