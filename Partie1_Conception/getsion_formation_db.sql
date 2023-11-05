@@ -46,3 +46,12 @@ CREATE TABLE Formateur (
     AdresseEmail VARCHAR(100),
     Adresse VARCHAR(255)
 );
+
+-- Création de la table de liaison "InscriptionEtudiantFormation" pour gérer les inscriptions des étudiants aux formations (relation N à M)
+CREATE TABLE InscriptionEtudiantFormation (
+    EtudiantID INT,
+    FormationID INT,
+    PRIMARY KEY (EtudiantID, FormationID),
+    FOREIGN KEY (EtudiantID) REFERENCES Etudiant(Identifiant),
+    FOREIGN KEY (FormationID) REFERENCES Formation(NumeroUnique)
+);
