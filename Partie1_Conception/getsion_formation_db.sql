@@ -64,3 +64,12 @@ CREATE TABLE AssureFormateurFormation (
     FOREIGN KEY (FormateurID) REFERENCES Formateur(Identifiant),
     FOREIGN KEY (FormationID) REFERENCES Formation(NumeroUnique)
 );
+
+-- Création de la table de liaison "GereAdministrateurFormation" pour gérer les administrateurs qui gèrent les formations (relation 1 à N)
+CREATE TABLE GereAdministrateurFormation (
+    AdministrateurID INT,
+    FormationID INT,
+    PRIMARY KEY (AdministrateurID, FormationID),
+    FOREIGN KEY (AdministrateurID) REFERENCES Administrateur(Identifiant),
+    FOREIGN KEY (FormationID) REFERENCES Formation(NumeroUnique)
+);
