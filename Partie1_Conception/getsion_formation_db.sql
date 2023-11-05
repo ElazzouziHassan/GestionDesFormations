@@ -24,3 +24,14 @@ CREATE TABLE Formation (
     Intitule VARCHAR(100),
     Description TEXT
 );
+
+-- Création de la table "Etudiant"
+CREATE TABLE Etudiant (
+    Identifiant INT AUTO_INCREMENT PRIMARY KEY,
+    NumeroCarteIdentite VARCHAR(20),
+    Nom VARCHAR(50),
+    DateNaissance DATE,
+    NumeroTelephone VARCHAR(20),
+    AdresseEmail VARCHAR(100),
+    Adresse VARCHAR(255)
+);
