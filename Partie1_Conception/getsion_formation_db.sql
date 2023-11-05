@@ -55,3 +55,12 @@ CREATE TABLE InscriptionEtudiantFormation (
     FOREIGN KEY (EtudiantID) REFERENCES Etudiant(Identifiant),
     FOREIGN KEY (FormationID) REFERENCES Formation(NumeroUnique)
 );
+
+-- Création de la table de liaison "AssureFormateurFormation" pour gérer les formateurs assurant les formations (relation N à M)
+CREATE TABLE AssureFormateurFormation (
+    FormateurID INT,
+    FormationID INT,
+    PRIMARY KEY (FormateurID, FormationID),
+    FOREIGN KEY (FormateurID) REFERENCES Formateur(Identifiant),
+    FOREIGN KEY (FormationID) REFERENCES Formation(NumeroUnique)
+);
