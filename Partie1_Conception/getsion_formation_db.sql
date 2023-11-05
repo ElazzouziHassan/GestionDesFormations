@@ -14,3 +14,13 @@ CREATE TABLE Administrateur (
     AdresseEmail VARCHAR(100),
     Adresse VARCHAR(255)
 );
+
+-- Création de la table "Formation"
+CREATE TABLE Formation (
+    NumeroUnique INT AUTO_INCREMENT PRIMARY KEY,
+    DateDebut DATE,
+    Prix DECIMAL(10, 2),
+    DureeMois INT,
+    Intitule VARCHAR(100),
+    Description TEXT
+);
