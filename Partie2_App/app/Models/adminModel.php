@@ -9,4 +9,8 @@ class adminModel extends Model
 {
     use HasFactory;
     protected $fillable = ['cin', 'nom', 'date_naissance', 'adresse', 'adresse_email', 'numero_telephone'];
+    
+    public function formations() {
+        return $this->hasMany('formation');
+    }
 }
