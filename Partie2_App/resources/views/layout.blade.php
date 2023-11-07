@@ -7,7 +7,6 @@
   <title> Gestion Formation | @yield('title')</title>
 </head>
 <body>
-  @yield('navbar');
   @yield('header');
   @yield('content');
   @yield('temoignages');
