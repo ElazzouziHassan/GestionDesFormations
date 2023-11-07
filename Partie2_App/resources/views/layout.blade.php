@@ -9,7 +9,7 @@
 <body>
   @yield('header');
   @yield('content');
-  @yield('temoignages');
+  {{-- @yield('temoignages'); --}}
   @yield('footer');
 </body>
 </html>
