@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\AdminModelController;
+use App\Http\Controllers\EtudiantModelController;
+use App\Http\Controllers\FormateurModelController;
+use App\Http\Controllers\FormationModelController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('dashbord', AdminModelController::class);
+Route::resource('etudiants', EtudiantModelController::class);
+Route::resource('formateurs', FormateurModelController::class);
+Route::resource('formations', FormationModelController::class);
+
