@@ -2,6 +2,8 @@
 
 namespace Database\Factories;
 
+use App\Models\formateurModel;
+use App\Models\formationModel;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -17,7 +19,8 @@ class FormationFormateurFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'formation_id' => formationModel::factory(),
+            'formateur_id' => formateurModel::factory()
         ];
     }
 }
