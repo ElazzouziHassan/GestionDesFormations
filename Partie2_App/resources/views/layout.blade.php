@@ -7,9 +7,9 @@
   <title> Gestion Formation | @yield('title')</title>
 </head>
 <body>
-  @yield('header');
-  @yield('content');
+  @yield('header')
+  @yield('content')
   {{-- @yield('temoignages'); --}}
-  @yield('footer');
+  @yield('footer')
 </body>
 </html>
