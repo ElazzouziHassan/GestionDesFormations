@@ -16,8 +16,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::resource('dashbord', AdminModelController::class);
-Route::resource('etudiants', EtudiantModelController::class);
-Route::resource('formateurs', FormateurModelController::class);
-Route::resource('formations', FormationModelController::class);
+Route::get('/', function () {
+  return view('welcome');
+});
+// Route::resource('dashbord', AdminModelController::class);
+// Route::resource('etudiants', EtudiantModelController::class);
+// Route::resource('formateurs', FormateurModelController::class);
+// Route::resource('formations', FormationModelController::class);
 
