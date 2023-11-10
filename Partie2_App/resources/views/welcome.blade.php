@@ -1,6 +1,6 @@
-@extends('layout');
-@section('title', 'Home');
+@extends('layout')
+@section('title', 'Home')
 
-@section('content');
-
-@endsection;
+@section('content')
+  <h1>Hello :)</h1>
+@endsection
